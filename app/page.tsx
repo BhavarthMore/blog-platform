@@ -4,7 +4,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import BlogCard from './components/BlogCard'; // Adjust the import path if needed
-import { Button } from '@/components/ui/button';
+
 import { useRouter } from 'next/navigation';
 
 type Post = {
