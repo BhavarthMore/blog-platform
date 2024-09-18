@@ -11,7 +11,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Database setup
-const db = new sqlite3.Database(':memory:'); // This uses an in-memory SQLite DB for simplicity
+const db = new sqlite3.Database(':memory:'); 
 
 // Create the 'posts' table
 db.serialize(() => {
